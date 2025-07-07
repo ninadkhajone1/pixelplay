@@ -2,6 +2,8 @@
 
 **PixelPlay** is a vibrant and interactive web-based gaming platform featuring classic mini-games like Flappy Bird, 2048, Tic Tac Toe, Rock Paper Scissors, Stick Hero, Memory Match, Pac-Man, and more — all built in React and styled with Tailwind CSS.
 
+LINK :  https://ninadkhajone1.github.io/pixelplay/
+
 ---
 
 ## 🚀 Features
