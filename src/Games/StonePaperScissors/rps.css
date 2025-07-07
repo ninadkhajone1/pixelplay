@@ -1,0 +1,49 @@
+.rps-container {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #a0c4ff, #ffffff);
+  min-height: 100vh;
+}
+
+.rps-container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.rps-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.rps-buttons button {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  padding: 1rem;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rps-buttons button:hover {
+  transform: scale(1.1);
+}
+
+.rps-result {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: #333;
+}
+
+.rps-score {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #222;
+}

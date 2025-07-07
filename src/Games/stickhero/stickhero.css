@@ -1,0 +1,63 @@
+.stickhero-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: 100vh;
+}
+
+.stickhero-box {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #000;
+}
+
+canvas {
+  display: block;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gameover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.home-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+}
+
+.retry-btn {
+  background: white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
